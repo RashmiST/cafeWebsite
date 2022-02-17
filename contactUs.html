@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="scripts/jquery.min.js"></script>
+  
+    <!-- Latest compiled JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+   
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Parisienne&amp;family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid" > 
+        <!-- start nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/cafelogo1.jpg" alt="logo" style="width:130px;">
+          </a>        
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>         
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+             <a class="nav-link"  href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+             <a class="nav-link" href="#">Catering</a>
+            </li> -->
+            <li class="nav-item">
+             <a class="nav-link" href="menulist.html">Menu</a>
+            </li>  
+            <li class="nav-item">
+             <a class="nav-link" href="about_Us.html">About Us</a>
+            </li> 
+            <li class="nav-item">
+             <a class="nav-link" href="hoursLocation.html">Hours & Location</a>
+            </li>          
+            <li class="nav-item">
+             <a class="nav-link" href="contactUs.html">Contact</a>
+            </li> 
+          </ul>
+         </div>        
+       </nav>  
+<!-- end nav -->
+<!-- start contact form -->
+<section id="contact">
+  <div class="contact-box">
+    <div class="contact-links">
+      <h2 class="contactHeading">Contact</h2>
+      <div class="links">
+        <div class="linkContact">
+          <a><img class="contactImg" src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
+        </div>
+        <div class="linkContact">
+          <a><img  class="contactImg" src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"></a>
+        </div>
+        <div class="linkContact">
+          <a><img class="contactImg" src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen"></a>
+        </div>
+        <div class="linkContact">
+          <a><img class="contactImg" src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form-wrapper">
+      <form action="" onsubmit="submitFunction()">
+        <div class="form-item">
+          <input type="text" name="sender" required>
+          <label>Name:</label>
+        </div>
+        <div class="form-item">
+          <input type="text" name="email" required>
+          <label>Email:</label>
+        </div>
+        <div class="form-item">
+          <textarea class="" name="message" required></textarea>
+          <label>Message:</label>
+        </div>
+        <button class="submit-btn">Send</button>  
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  function submitFunction(){
+    alert('Thank you!!!');
+  }
+</script>
+<!-- end contact form -->
+
+<!-- footer start -->
+<div class="footers">
+  <div class="footer row">
+  <div class="col-md-3 logo">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/cafelogo1.jpg" class="logof" alt="logo">
+    </a> 
+    </div>
+    <div class="llinkPages col-md-3">
+      <a class="lhome" href="index.html">Home</a>
+      <a class="lhome" href="menulist.html">Menus</a>
+      <a class="lhome" href="about_Us.html">About-Us</a>
+      <a class="lhome" href="hoursLocation.html">Hours & Location</a>
+      <a class="lhome" href="contactUs.html">Contact</a>
+  
+    </div>
+    <div class="social col-md-3 ml-5">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-snapchat"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+  
+    </div>
+  </div> 
+  </div>
+  
+  <div class="a">
+    copyright &copy;CoderFuel Infotech,2021.
+  
+  </div>
+  <!-- footer end -->
+  </div>
+
+    
+</body>
+</html>

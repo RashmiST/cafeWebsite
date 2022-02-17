@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="scripts/jquery.min.js"></script>
+  
+    <!-- Latest compiled JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+   
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Parisienne&amp;family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid" > 
+        <!-- start nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/cafelogo1.jpg" alt="logo" style="width:130px;">
+          </a>        
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>         
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+             <a class="nav-link"  href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+             <a class="nav-link" href="#">Catering</a>
+            </li> -->
+            <li class="nav-item">
+             <a class="nav-link" href="menulist.html">Menu</a>
+            </li>  
+            <li class="nav-item">
+             <a class="nav-link" href="about_Us.html">About Us</a>
+            </li> 
+            <li class="nav-item">
+             <a class="nav-link" href="hoursLocation.html">Hours & Location</a>
+            </li>          
+            <li class="nav-item">
+             <a class="nav-link" href="contactUs.html">Contact</a>
+            </li> 
+          </ul>
+         </div>        
+       </nav>  
+<!-- end nav -->
+<h1 class="heading"> &#x2022; &#x2022; Menus &#x2022; &#x2022;</h1>
+<!--  strt food list nav -->
+<div class="f-menu" id="foodmenu">
+  <ul class="d-flex">
+      <li class="footer-item">
+          <a href="#fastFood">
+          
+          <div class="footer-menu-text" >FASTFOOD</div>
+      </a>
+      </li>
+      <li class="footer-item">
+          <a href="#shake">
+             
+              <div class="footer-menu-text">SHAKE</div>
+      </a></li>
+      <li class="footer-item"><a href="#degree-certification"><a href="#chinese">
+          
+          <div class="footer-menu-text">CHINESE</div>
+
+      </a></li>
+     
+  </ul>
+</div>
+<!-- end food list nav -->
+
+<!-- food menu -->
+
+<div class="collapse navbar-collapse" id="iteammenu">
+    <ul class="menubar">
+      <li class="nav-item ">
+       <a class="nav-link"   href="#">FASTFOOD</a>
+      </li>
+      <li class="nav-item" >
+       <a class="nav-link"  href="#">SHAKE</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">CHINESE</a>
+      </li>  
+    </ul>
+  </div>        
+  
+  <!-- start menu list -->
+  <!-- card Fastfood -->
+  <h3 id="fastFood">Fastfood</h3>
+    <div class="container" id="menuNextpage">
+          <div class="card">
+            <div class="card_image">
+              <img src="assets/images/pizza.jpg" alt="mixed vegetable salad in a mason jar. ">
+             </div>
+            <div class="card_content">
+              <h2 class="card_title">PIZZA </h2>
+               <table class="pMenuList">
+                 <tr>
+                   <td>Plan Cheese Pizza</td>
+                   <td> Rs 100</td>
+                 </tr>
+                 <tr>
+                   <td>Veggi Pizza</td>
+                   <td> Rs 100</td>
+                 </tr>
+                 <tr>
+                  <td>Mexican Pizza</td>
+                  <td>Rs 110</td>
+                </tr>
+                <tr>
+                  <td>Corn Pizza</td>
+                  <td>Rs 120</td>
+                </tr>
+                <tr>
+                  <td>Panner Pizza</td>
+                  <td>Rs 140</td>
+                </tr>
+                <tr>
+                  <td>Mushroom Pizza</td>
+                  <td>Rs 150</td>
+                </tr>
+                <tr>
+                  <td>Chicken Kabab Pizza</td>
+                  <td>Rs 160</td>
+                </tr>
+  
+               </table>
+              </div>
+          </div>
+    
+          <div class="card">
+            <div class="card_image"><img src="assets/images/sandwich.jpg" alt="a Reuben sandwich on wax paper. ">
+            </div>
+            <div class="card_content">
+              <h2 class="card_title">SANDWICH</h2>
+              <table class="pMenuList">
+                <tr>
+                  <td>Aloo Matar Sandwich</td>
+                  <td> Rs 50</td>
+                </tr>
+                <tr>
+                  <td>Veg  Sandwich</td>
+                  <td> Rs 50</td>
+                </tr>
+                <tr>
+                 <td>Chocolate  Sandwich</td>
+                 <td>Rs 60</td>
+               </tr>
+               <tr>
+                 <td>Cheese veg. Sandwich</td>
+                 <td>Rs 60</td>
+               </tr>
+               <tr>
+                 <td>Cheese Chatani</td>
+                 <td>Rs 70</td>
+               </tr>
+               <tr>
+                 <td>Sp. ice Cream Sad.</td>
+                 <td>Rs 70</td>
+               </tr>
+               <tr>
+                 <td>Cheese kulfi Sand.</td>
+                 <td>Rs 80</td>
+               </tr>
+  
+              </table>
+              </div>
+            </div>
+    
+          <div class="card">
+            <div class="card_image"><img src="assets/images/banner2.jpg" alt="A side view of a plate of figs and berries. ">
+              
+            </div>
+            <div class="card_content">
+              <h2 class="card_title"> BURGUR</h2>
+                <!-- <p><span class="note">Seasonal.</span></p> -->
+                <table class="pMenuList">
+                  <tr>
+                    <td>Veg Jucy</td>
+                    <td> Rs 50</td>
+                  </tr>
+                  <tr>
+                    <td>Veg  Salsa</td>
+                    <td> Rs 69</td>
+                  </tr>
+                  <tr>
+                   <td>Veg Schezwan</td>
+                   <td>Rs 79</td>
+                 </tr>
+                 <tr>
+                   <td>Veg Makhni</td>
+                   <td>Rs 79</td>
+                 </tr>
+                 <tr>
+                   <td>Veg Masala</td>
+                   <td>Rs 89</td>
+                 </tr>
+                 <tr>
+                   <td>Veg Shahi</td>
+                   <td>Rs 89</td>
+                 </tr>
+                 <tr>
+                   <td>Panner Burgur</td>
+                   <td>Rs 99</td>
+                 </tr>
+    
+                </table>
+              </div>
+            </div>
+    </div>
+  
+  
+  
+  <!-- card shake-->
+  <h3 id="shake">Milkshake</h3>
+  <div class="container" id="menuNextpage">
+   
+    <div class="card">
+      <div class="card_image">
+        <img src="assets/images/newShake1.jpg" alt="mixed vegetable salad in a mason jar. ">
+       </div>
+      <div class="card_content">
+        <h2 class="card_title">CLASSIC SHAKE</h2>
+        <table class="pMenuList">
+          <tr>
+            <td>Vanila Shake</td>
+            <td> Rs 90</td>
+          </tr>
+          <tr>
+            <td>Strawberry Shake</td>
+            <td> Rs 90</td>
+          </tr>
+          <tr>
+           <td>Butterscotch Shake</td>
+           <td>Rs 90</td>
+         </tr>
+         <tr>
+           <td>Mango Shake</td>
+           <td>Rs 90</td>
+         </tr>
+         <tr>
+           <td>Cold Coffee</td>
+           <td>Rs 90</td>
+         </tr>
+         <tr>
+           <td>Roohatza Shake</td>
+           <td>Rs 90</td>
+         </tr>
+         <tr>
+           <td>Pineapple Shake</td>
+           <td>Rs 90</td>
+         </tr>
+  
+        </table>
+        </div>
+    </div>
+  
+    <div class="card">
+      <div class="card_image"><img src="assets/images/newShake3.jpg" alt="a Reuben sandwich on wax paper. ">
+      </div>
+      <div class="card_content">
+        <h2 class="card_title">THICK SHAKE</h2>
+        <table class="pMenuList">
+          <tr>
+            <td>Mini Oreo</td>
+            <td> Rs 100</td>
+          </tr>
+          <tr>
+            <td>Chocolate Shake</td>
+            <td> Rs 100</td>
+          </tr>
+          <tr>
+           <td>Chocochips</td>
+           <td>Rs 110</td>
+         </tr>
+         <tr>
+           <td>Kitkat</td>
+           <td>Rs 110</td>
+         </tr>
+         <tr>
+           <td>Tutti Fruity</td>
+           <td>Rs 110</td>
+         </tr>
+         <tr>
+           <td>Chocolate Oreo</td>
+           <td>Rs 110</td>
+         </tr>
+         <tr>
+           <td>Pineapple Shake</td>
+           <td>Rs 90</td>
+         </tr>
+  
+        </table>
+        </div>
+      </div>
+  
+    <div class="card">
+      <div class="card_image"><img src="assets/images/newShake2.jpg" alt="A side view of a plate of figs and berries. ">
+        
+      </div>
+      <div class="card_content">
+        <h2 class="card_title">LASSI</h2>
+          <!-- <p><span class="note">Seasonal.</span></p> -->
+          <table class="pMenuList">
+            <tr>
+              <td>Dry Fruit Lassi</td>
+              <td> Rs 60</td>
+            </tr>
+            <tr>
+              <td>Sweet Lassi</td>
+              <td> Rs 60</td>
+            </tr>
+            <tr>
+             <td>Fruit Lassi</td>
+             <td>Rs 60</td>
+           </tr>
+           <tr>
+             <td>Mango Lassi</td>
+             <td>Rs 60</td>
+           </tr>
+           <tr>
+             <td>Mango Banana Lassi</td>
+             <td>Rs 60</td>
+           </tr>
+           <tr>
+             <td>Mango Strawberry Lassi</td>
+             <td>Rs 60</td>
+           </tr>
+           <tr>
+             <td>Saffron Lassi</td>
+             <td>Rs 60</td>
+           </tr>
+    
+          </table>
+        </div>
+      </div>
+  </div>
+  
+  
+  <!-- Card chinese -->
+  <h3 id="chinese"> Chinese</h3>
+  <div class="container" id="menuNextpage">
+   
+   
+    <div class="card">
+      <div class="card_image">
+        <img src="assets/images/chinese1.jpg" alt="mixed vegetable salad in a mason jar. ">
+       </div>
+      <div class="card_content">
+        <h2 class="card_title">MAGGI</h2>
+        <table class="pMenuList">
+          <tr>
+            <td>Veg Maggi</td>
+            <td> Rs 30</td>
+          </tr>
+          <tr>
+            <td>Chesse Maggi </td>
+            <td> Rs 30</td>
+          </tr>
+          <tr>
+           <td>Classic Masala Maggi</td>
+           <td>Rs 35</td>
+         </tr>
+         <tr>
+           <td>Oats Maggi</td>
+           <td>Rs 45</td>
+         </tr>
+         <tr>
+           <td>Soupy Maggi </td>
+           <td>Rs 45</td>
+         </tr>
+        
+        </table>
+        </div>
+    </div>
+  
+    <div class="card">
+      <div class="card_image"><img src="assets/images/chinese2.jpg" alt="a Reuben sandwich on wax paper. ">
+      </div>
+      <div class="card_content">
+        <h2 class="card_title">NOODLES</h2>
+        <table class="pMenuList">
+          <tr>
+            <td>Veg Noodles</td>
+            <td> Rs 50</td>
+          </tr>
+          <tr>
+            <td>Veg Garlic Noodles </td>
+            <td> Rs 50</td>
+          </tr>
+          <tr>
+           <td>Paneer Noodles</td>
+           <td>Rs 60</td>
+         </tr>
+         <tr>
+           <td>Veg Chili Garlic Noodles</td>
+           <td>Rs 60</td>
+         </tr>
+         <tr>
+           <td>Hong Kong Noodles </td>
+           <td>Rs 70</td>
+         </tr>
+        
+        </table>
+        </div>
+      </div>
+  
+    <div class="card">
+      <div class="card_image"><img src="assets/images/chinese3.jpg" alt="A side view of a plate of figs and berries. ">
+        
+      </div>
+      <div class="card_content">
+        <h2 class="card_title"> PASTA</h2>
+          <!-- <p><span class="note">Seasonal.</span></p> -->
+          <table class="pMenuList">
+            <tr>
+              <td>Four Cheese Pasta<br>(parmesan,cheddal,brie & emmental )</td>
+              <td> Rs 60</td>
+            </tr>
+            <tr>
+              <td>Pasta Carbonara </td>
+              <td> Rs 60</td>
+            </tr>
+            <tr>
+             <td>Chili Pasta</td>
+             <td>Rs 70</td>
+           </tr>
+           <tr>
+             <td>White Souse Pasta</td>
+             <td>Rs 70</td>
+           </tr>
+          
+          </table>
+        </div>
+      </div>
+  </div>
+  <!-- end menulist -->
+
+  <!-- footer start -->
+<div class="footers">
+  <div class="footer row">
+  <div class="col-md-3 logo">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/cafelogo1.jpg" class="logof" alt="logo">
+    </a> 
+    </div>
+    <div class="llinkPages col-md-3">
+      <a class="lhome" href="index.html">Home</a>
+    <a class="lhome" href="menulist.html">Menus</a>
+    <a class="lhome" href="about_Us.html">About-Us</a>
+    <a class="lhome" href="hoursLocation.html">Hours & Location</a>
+    <a class="lhome" href="contactUs.html">Contact</a>
+
+  
+    </div>
+    <div class="social col-md-3 ml-5">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-snapchat"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+  
+    </div>
+  </div> 
+  </div>
+  
+  <div class="a">
+    copyright &copy;CoderFuel Infotech,2021.
+  
+  </div>
+  <!-- footer end -->
+  </div>
+      
+  </div>
+
+</body>
+</html>
