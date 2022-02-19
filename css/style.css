@@ -14,6 +14,7 @@
   width: 100%;
   height: 40%;
   position: relative;
+ 
 }
 .bannerHeading {
   position: absolute;
@@ -69,12 +70,13 @@
   padding-bottom: 1px;
 }
 .ourMenus {
-  background-color: #b2c4da;
+  /* background-color: #b2c4da; */
   top: 25%;
   left: 7%;
   font-size: 25px;
   color: bisque;
   line-height: 27px;
+ 
 }
 .ourMenusImg {
   width: 100%;
@@ -120,6 +122,7 @@
 #aboutbg {
   width: 100%;
   position: relative;
+
 }
 .aboutMContaint {
   width: 100%;
@@ -187,6 +190,60 @@
   }
 }
 /* about page home end */
+/* testimontional home start */
+/* ........./ Testimonial /.......... */
+
+#testimonials {
+  padding: 3rem 0;
+  background: rgb(149 128 128);;
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #f5f3f3;
+  font-family: Parisienne, cursive;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.testimonial-box .checked {
+  color: #ff9529;
+}
+
+.testimonial-box .testimonial-text {
+  margin: 1rem 0;
+  color: #444;
+}
+
+.testimonial-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.customer-photo img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: auto;
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+}
+/* testimotional home end */
 ul li {
   color: white;
 }
@@ -259,7 +316,7 @@ td {
 
 .container {
   position: relative;
-  width: 1100px;
+  width: 1163px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -348,6 +405,7 @@ td {
 /* hours & location start */
 .section{
   background-color: #d4d9dd;
+  margin-top: 30px;
 }
 .section-heading{
   font-family: Parisienne, cursive;
